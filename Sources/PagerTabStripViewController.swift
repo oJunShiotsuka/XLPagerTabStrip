@@ -99,6 +99,7 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
         containerView.alwaysBounceVertical = false
         containerView.scrollsToTop = false
         containerView.delegate = self
+        containerView.isScrollEnabled = false
         containerView.showsVerticalScrollIndicator = false
         containerView.showsHorizontalScrollIndicator = false
         containerView.isPagingEnabled = true
